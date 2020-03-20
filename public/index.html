@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Weather Forecast</title>
+   <link href="style.css" rel="stylesheet">
+   <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/GNOME_Weather_icon_2018.svg/2000px-GNOME_Weather_icon_2018.svg.png" rel="icon">
+</head>
+<body onload="bodyLoaded()">
+    <div class="forecast">
+	<div class="button" id="button"><input class="btn" id="getForecast" type="button" value="Show 7-Day Forecast" /></div>
+	<div style="color:#ffffff;" id="messages"></div>
+        <div class="card" id="card">
+           <div class="today">
+               <div class="temp" id="temp"></div>
+               <div class="date" id="date"></div>
+           </div>
+           <div class="week" id="week"></div>
+        </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
