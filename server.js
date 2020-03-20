@@ -1,5 +1,5 @@
 var express = require("express");
-var aeriskey = require("./private/aeriskey.json")
+var aeriskey = require("./aeriskey.json")
 var app = express();
 app.use(express.static("public"));
 app.listen(8080);

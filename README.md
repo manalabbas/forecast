@@ -7,6 +7,14 @@ Install [`node.js`](https://nodejs.org/en/download/) on environment, as well as 
     $ npm install express
     $ npm install request
 
+### Configure the `aeriskey.json` file.
+```js
+{
+  "client_id": "FILL IN",
+  "client_secret": "FILL IN"
+} 
+```
+
 #### Start
 
     $ node hw4server.js
